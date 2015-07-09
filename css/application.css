@@ -8,7 +8,7 @@ div{
     font-weight: 200 !important;
 }
 .top-bar{
-    height: 100px !important;
+    height: 70px !important;
 }
 .fullWidth{
     margin-left: 0px !important;
@@ -36,19 +36,20 @@ div{
     height: 875px;
 }
 #page2 {
-    height: 875px;
+    /*height: 875px;*/
     padding-top: 70px;
+    padding-bottom: 70px;
     position: relative;
     z-index: 10;
     background-color: #FFF;
 }
 #page2 p{
     font-size:16pt;
-    border-left: 10px solid #38c6f4;
+    border-left: 10px solid green;
     padding-left: 20px;
 }
 #page2 h1{
-    color:#38c6f4 !important;
+    color:green !important;
 }
 #page3 {
     background-color: #FFF;
@@ -82,10 +83,10 @@ div{
     padding-top: 30px;
 }
 .name {
-    margin-top: 10px !important;
+    /*margin-top: 10px !important;*/
     background: url("img/logo.png");
     /*width:440px;*/
-    height:80px !important;
+    /*height:50px !important;*/
     background-repeat:no-repeat;
 }
 .galleria{
@@ -107,13 +108,23 @@ div{
 
 
 }
+.title-area{
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid #ffffff;
+
+}
 .sitetitle {
-    margin-left:105px !important;
+    /*margin-left:105px !important;*/
     color:white;
     font-size:15pt !important;
     font-weight: 600;
     text-transform: uppercase;
     padding-top: 8px;
+    background: url("/img/logo.png") no-repeat;
+    background-size: 265px;
+    height: 70px;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -126,8 +137,11 @@ h1{
     font-weight: 100;
 }
 .panel{
-    background: rgba(0,0,0,0.5);
+    background: #373737;
     border: 0;
+    margin-bottom:0 !important;
+    color:white;
+
 }
 .photo{
     padding: 5px;
@@ -142,7 +156,7 @@ h1{
 
 }
 .parttext h3{
-    color:#38c6f4 !important;
+    color:green !important;
 }
 .productimage{
     background-image: url("img/part.png");
@@ -166,7 +180,7 @@ h2{
     color: black !important;
 }
 .page3text h3{
-    color:#38c6f4 !important;
+    color:green !important;
 }
 h3{
     color:white !important;
@@ -243,9 +257,14 @@ hr{
     background: linear-gradient(to bottom,  #1f5b89 30%,#113456 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f5b89', endColorstr='#113456',GradientType=0 ); /* IE6-9 */
 }
+.top-bar-section ul li a{
+    /*height: 70px !important;*/
+    font-weight: 700;
+}
 .active a{
-    background: 0 !important;
-    border-top: 5px solid white;
+    /*background: 0 !important;*/
+    background-color:green !important;
+    /*border-top: 5px solid white;*/
 }
 .th{
     width: 50px;
@@ -257,4 +276,17 @@ hr{
 }
 .test{
     height: 200px;
+}
+#bar1{
+    height:5px;
+    background-color:green;
+    width: 100%;
+}
+#bar2{
+    height:8px;
+    background-color:green;
+    width: 100%;
+}
+.button{
+    background-color:green !important;
 }
