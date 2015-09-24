@@ -1,19 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
 p{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 li{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 div{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
-.top-bar{
+h1{
+    font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+.top-bar-height{
     height: 70px !important;
+}.top-bar-height-small{
+    height: 55px !important;
 }
+ .toggle-topbar{
+     left:0 !important;
+ }
+.menu-icon{
+    left:0 !important;
+}
+.tb2custom {
+    min-height: 60px;
+    padding-top:0px;
+}
+
 .fullWidth{
     margin-left: 0px !important;
     margin-right: 0px !important;
     max-width: 100% !important;
+}
+.ulmed li a{
+    font-size: 0.6rem !important;
 }
 .bg{
     background-image: url("img/bg2.jpg");
@@ -24,11 +49,11 @@ div{
     background-size: cover;
     height: 875px;
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 1;
 }
 #page1 {
-    margin-top: 90px;
+    /*margin-top: 90px;*/
     padding-top: 250px;
     background-color: ;
     position: relative;
@@ -45,7 +70,7 @@ div{
 }
 #page2 p{
     font-size:16pt;
-    border-left: 10px solid green;
+    border-left: 1px solid green;
     padding-left: 20px;
 }
 #page2 h1{
@@ -129,12 +154,11 @@ div{
 
 @media only screen and (max-width: 600px) {
     p{
-        font-size:12pt !important;
     }
 }
 h1{
     color:white !important;
-    font-weight: 100;
+    font-weight: 300 !important;
 }
 .panel{
     background: #373737;
@@ -183,10 +207,15 @@ h2{
     color:green !important;
 }
 h3{
-    color:white !important;
+    color:green !important;
+    font-weight: 200 !important;
+    margin-bottom: -15px;
+    padding-left:20px;
 }
 li{
-    color:white !important;
+    font-size:16pt !important;
+
+    /*color:white !important;*/
     //margin-left: 46px;
 }
 #bigpic{
@@ -290,3 +319,37 @@ hr{
 .button{
     background-color:green !important;
 }
+.sponsors .columns{
+    background-color: transparent;
+    margin-bottom:50px !important;
+    margin-top:25px !important;
+}
+
+.bronze li{
+    color:black !important;
+}
+ul{
+    padding-left:20px;
+}
+.membername{
+    font-size:1rem;
+}
+.reallylongname{
+    font-size: 0.9rem;
+}
+.newsflash{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 40px;
+    background: black;
+    z-index:99;
+    color:yellow;
+    font-weight: 500;
+    padding-top:8px;
+}
+.smallnewsflash{
+    height: 80px;
+    padding-top:16px;
+}
+

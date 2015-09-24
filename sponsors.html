@@ -12,7 +12,7 @@
 
 <div class="contain-to-grid fixed">
     <div id="bar1"></div>
-    <nav class="top-bar" data-topbar>
+    <nav class="top-bar top-bar-height hide-for-small" data-topbar>
         <ul class="title-area">
             <li class="name ">
                 <div class="sitetitle">
@@ -21,24 +21,77 @@
 
             </li>
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
-        <section class="top-bar-section">
+        <section class="top-bar-section ">
             <!-- Right Nav Section -->
-            <ul class="">
+            <ul class="hide-for-medium">
                 <li class="B1 "><a href="/">HOME</a></li>
-                <li class="B1"><a href="team.html">THE TEAM</a></li>
-                <li class="B2"><a href="#">NEWS</a></li>
-                <li class="B3"><a href="competition.html">THE COMPETITION</a></li>
-                <li class="B4 active"><a href="sponsors.html">SPONSORS</a></li>
-                <li class="B4"><a href="vehicle.html">THE CAR</a></li>
-                <li class="B4"><a href="media.html">MEDIA</a></li>
-                <li class="B4"><a href="contact.html">CONTACT US</a></li>
+                <li class="B1 "><a href="team">THE TEAM</a></li>
+                <li class="B2"><a href="https://waterloohybrid.wordpress.com/">NEWS</a></li>
+                <li class="B3"><a href="competition">THE COMPETITION</a></li>
+                <li class="B4 active"><a href="sponsors">SPONSORS</a></li>
+                <li class="B4"><a href="vehicle">THE CAR</a></li>
+                <li class="B4"><a href="media">MEDIA</a></li>
+                <li class="B4 "><a href="contact">CONTACT US</a></li>
+            </ul>
+            <ul class="ulmed show-for-medium">
+                <li class="B1 "><a href="/">HOME</a></li>
+                <li class="B1 "><a href="team">THE TEAM</a></li>
+                <li class="B2"><a href="https://waterloohybrid.wordpress.com/">NEWS</a></li>
+                <li class="B3"><a href="competition">THE COMPETITION</a></li>
+                <li class="B4 active"><a href="sponsors">SPONSORS</a></li>
+                <li class="B4"><a href="vehicle">THE CAR</a></li>
+                <li class="B4"><a href="media">MEDIA</a></li>
+                <li class="B4 "><a href="contact">CONTACT US</a></li>
             </ul>
         </section>
     </nav>
 
+    <nav class="top-bar top-bar-height-small show-for-small" data-topbar>
+        <ul class="title-area">
+            <li class="name ">
+                <div class="sitetitle">
+
+                </div>
+
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        </ul>
+
+    </nav>
+
+
+
 </div>
+
+
+
+<nav class="top-bar tb2custom show-for-small" data-topbar role="navigation">
+    <ul class="title-area" style="margin-bottom:-5px;">
+
+        <li class="toggle-topbar "><a style="margin-top: 8px" href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            <li class="B1 "><a href="/">HOME</a></li>
+            <li class="B1 "><a href="team">THE TEAM</a></li>
+            <li class="B2"><a href="https://waterloohybrid.wordpress.com/">NEWS</a></li>
+            <li class="B3"><a href="competition">THE COMPETITION</a></li>
+            <li class="B4 active"><a href="sponsors">SPONSORS</a></li>
+            <li class="B4"><a href="vehicle">THE CAR</a></li>
+            <li class="B4"><a href="media">MEDIA</a></li>
+            <li class="B4 "><a href="contact">CONTACT US</a></li>
+        </ul>
+
+        <!-- Left Nav Section -->
+    </section>
+</nav>
+
+
+
+
   <div class="fullWidth">
       <div class="fullWidth">
           <div id="page2">
@@ -48,56 +101,62 @@
                   <p>Waterloo Hybrid would like to thank all of our sponsors for their great generosity in supporting our project.
                   </p>
                   <p>The following are our current sponsors, click any logo to visit their official websites.</p>
+                  <p>If you are interested in becoming a sponsor, please click <a href="becomeasponsor">here!</a> </p>
                   <hr>
 
                   <div class="sponsors">
                     <!--PLATINUM-->
-                    <li><a href="http://www.hallink.com/"><img src="/img/sponsors/22.png"></li><!--Hallink-->
 
+                      <div class="columns small-8 small-offset-2">
+                       <a target="_blank" href="http://www.hallink.com/">
+                           <img src="/img/sponsors/22.png">
+                       </a><!--Hallink-->
+                      </div>
+<hr>
                     <!--DIAMOND--> 
-                    <ul class = "large-block-grid-3">
-                        <li><a href="https://www.asana.com"><img src="/img/sponsors/15.png"></li><!--Asana-->
-                        <li><a href="https://www.atollic.com/"><img src="/img/sponsors/16.png"></li><!--Atollic-->
-                        <li><a href="https://www.baumeier.com/"><img src="/img/sponsors/17.png"></li><!--Baumeier-->
-                        <li><a href="https://www.shell.com"><img src="/img/sponsors/7.jpg"></li><!--Shell-->
-                        <li><a href="https://www.toyota.com"><img src="/img/sponsors/38.png"></li><!--Toyota-->
+                    <ul class = "small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                        <li class=""><a target="_blank" href="https://www.asana.com"><img src="/img/sponsors/15.png"></a></li><!--Asana-->
+                        <li><a target="_blank" href="https://www.atollic.com/"><img src="/img/sponsors/16.png"></a></li><!--Atollic-->
+                        <li><a target="_blank" href="https://www.baumeier.com/"><img src="/img/sponsors/17.png"></a></li><!--Baumeier-->
+                        <li><a target="_blank" href="https://www.shell.com"><img src="/img/sponsors/7.jpg"></a></li><!--Shell-->
+                        <li><a target="_blank" href="https://www.toyota.com"><img src="/img/sponsors/38.png"></a></li><!--Toyota-->
                     </ul>
-
+<hr>
                     <!--GOLD-->
-                    <ul class="large-block-grid-4">
-                      <li><a href="https://www.acrpltd.com/"><img src="/img/sponsors/36.png"></li><!--ACRP-->
-                      <li><a href="https://www.www.altium.com/"><img src="/img/sponsors/14.png"></li><!--Altium-->
-                      <li><a href="https://www.www.skf.com/"><img src="/img/sponsors/37.png"></li><!--SKF-->
-                      <li><a href="https://www.solidworks.com/"><img src="/img/sponsors/30.png"></li><!--Solidworks-->
-                      <li><a href="https://uwaterloo.ca/engineering/about/dean-engineering"><img src="/img/sponsors/33.png"></li><!--The Dean (?)-->
-                      <li><a href="https://www.weef.uwaterloo.ca/"><img src="/img/sponsors/32.png"></li><!--WEEF-->
+                    <ul class="small-block-grid-5 medium-block-grid-5 large-block-grid-5">
+                      <li><a target="_blank" href="https://www.acrpltd.com/"><img src="/img/sponsors/36.png"></li><!--ACRP-->
+                      <li><a target="_blank" href="https://www.www.altium.com/"><img src="/img/sponsors/14.png"></li><!--Altium-->
+                      <li><a target="_blank" href="https://www.www.skf.com/"><img src="/img/sponsors/37.png"></li><!--SKF-->
+                      <li><a target="_blank" href="https://www.solidworks.com/"><img src="/img/sponsors/30.png"></li><!--Solidworks-->
+                      <li><a target="_blank" href="https://uwaterloo.ca/engineering/about/dean-engineering"><img src="/img/sponsors/33.png"></li><!--The Dean (?)-->
+                      <li><a target="_blank" href="https://www.weef.uwaterloo.ca/"><img src="/img/sponsors/32.png"></li><!--WEEF-->
                     </ul>
-
+<hr>
                     <!--SILVER-->
-                    <ul class="medium-block-grid-4">
-                        <li><a href="https://www.barrday.com/"><img src="/img/sponsors/5.jpg"></li><!--Barrday-->
+                    <ul class="small-block-grid-6 medium-block-grid-6 large-block-grid-6">
+                        <li><a target="_blank" href="https://www.barrday.com/"><img src="/img/sponsors/5.jpg"></li><!--Barrday-->
                         <!--Bay Area Circuits?-->
-                        <li><a href="http://vr3.ca/"><img src="/img/sponsors/20.png"></li><!--Cartesian-->
-                        <li><a href="https://engsoc.uwaterloo.ca/"><img src="/img/sponsors/21.png"></li><!--EngSoc-->
-                        <li><a href ="http://www.graybarcanada.com/"> <img src="/img/sponsors/39.png"></li><!--Graybar(?)-->
-                        <li><a href = "www.kitcheneraero.com/home.html"><img src = "/img/sponsors/40.jpeg"></li><!--Kitchener Aero(?)-->
-                        <li><a href="https://www.linear.com/"><img src="/img/sponsors/4.jpg"></li><!--Linear-->
-                        <li><a href="https://http://www.lumarmachining.com/"><img src="/img/sponsors/6.jpg"></li><!--Lumar-->
-                        <li><a href="http://www.magna.com/"><img src="/img/sponsors/26.png"></li><!--Magna-->                      
-                        <li><a href="http://www.napaonline.com/"><img src="/img/sponsors/27.png"></li><!--Napa-->
-                        <li><a href="https://www.odg.com/"><img src="/img/sponsors/28.png"></li><!--ODG-->
-                        <li><a href="https://www.paintballhq.ca/"><img src="/img/sponsors/29.png"></li><!--Paintball HQ-->
-                        <li><a href="https://www.true-gear.com/"><img src="/img/sponsors/10.jpg"></li><!--True Gear-->
-                        <li><a href="http://westexcoatings.ca/"><img src="/img/sponsors/11.jpg"></li><!--Westex-->
+                        <li><a target="_blank" href="http://vr3.ca/"><img src="/img/sponsors/20.png"></li><!--Cartesian-->
+                        <li><a target="_blank" href="https://engsoc.uwaterloo.ca/"><img src="/img/sponsors/21.png"></li><!--EngSoc-->
+                        <li><a target="_blank" href ="http://www.graybarcanada.com/"> <img src="/img/sponsors/39.png"></li><!--Graybar(?)-->
+                        <li><a target="_blank" href = "www.kitcheneraero.com/home"><img src = "/img/sponsors/40.jpg"></li><!--Kitchener Aero(?)-->
+                        <li><a target="_blank" href="https://www.linear.com/"><img src="/img/sponsors/4.jpg"></li><!--Linear-->
+                        <li><a target="_blank" href="https://http://www.lumarmachining.com/"><img src="/img/sponsors/6.jpg"></li><!--Lumar-->
+                        <li><a target="_blank" href="http://www.magna.com/"><img src="/img/sponsors/26.png"></li><!--Magna-->                      
+                        <li><a target="_blank" href="http://www.napaonline.com/"><img src="/img/sponsors/27.png"></li><!--Napa-->
+                        <li><a target="_blank" href="https://www.odg.com/"><img src="/img/sponsors/28.png"></li><!--ODG-->
+                        <li><a target="_blank" href="https://www.paintballhq.ca/"><img src="/img/sponsors/29.png"></li><!--Paintball HQ-->
+                        <li><a target="_blank" href="https://www.true-gear.com/"><img src="/img/sponsors/10.jpg"></li><!--True Gear-->
+                        <li><a target="_blank" href="http://westexcoatings.ca/"><img src="/img/sponsors/11.jpg"></li><!--Westex-->
                     </ul>
-
-                      <!--BRONZE - this text doesn't show, i'm assuming it's the css file but i didnt want to mess with it-->
-                      <li><p>Canadian Tire</p></li>
-                      <li><p>Paisley Plastics</p></li>
-                      <li><p>Starbucks</p></li>
-                      <li><p>Systematic Fluid Power</p></li>
-                      <li><p>Tigercat</p></li>
-                      <li><p></p>Westmount Signs</li>
+<hr>
+                  <ul class="bronze small-block-grid-5 medium-block-grid-5 large-block-grid-5">
+                      <li>Canadian Tire</li>
+                      <li>Paisley Plastics</li>
+                      <li>Starbucks</li>
+                      <li>Systematic Fluid Power</li>
+                      <li>Tigercat</li>
+                      <li>Westmount Signs</li>
                   </ul>
                 </div>
               </div>
